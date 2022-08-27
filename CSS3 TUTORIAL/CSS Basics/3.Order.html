@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <!--  aynı etiketleri etkileyen link varsa sonradan gelen çalışır! -->
+
+    <!-- <style>
+        /* En genel seçiçi olan özellikleri en üste yazmamız lazım*/
+
+        /* h1 {
+            color: blue;
+
+            color: red;
+        }
+
+        #logo {
+            color: red;
+        } */
+
+        /* important ezmiyor renk kırmızı kalacak*/
+        #logo{
+            color: red !important;
+        }
+    </style> -->
+
+
+</head>
+
+
+<body>
+    <header>
+        <h1>Header 1</h1>
+        <h1 id="logo">Logo</h1>
+
+        <ul>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li><a href="#">Service</a></li>
+        </ul>
+    </header>
+
+    <h1>
+        Header 2
+    </h1>
+    <p id="para1" class="lead info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, culpa.</p>
+    <p class="info">Lorem, ipsum <span class="primary"> dolor </span> sit amet consectetur adipisicing elit. Tempore
+        quod corrupti harum temporibus
+        adipisci molestias impedit voluptates cupiditate officiis recusandae!</p>
+    <p class="info">Lorem ipsum <span> dolor</span> sit amet consectetur adipisicing elit. Culpa alias odio magnam
+        doloribus ipsa in!
+    </p>
+    <p>Test Paragraph</p>
+
+    <a href="#">Home</a>
+
+</body>
+
+</html>

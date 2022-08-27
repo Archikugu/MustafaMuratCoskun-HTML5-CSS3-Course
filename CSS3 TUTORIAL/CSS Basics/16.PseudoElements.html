@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Pseudo Element</title>
+
+    <style>
+        .para1 {
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+
+        .para1::first-line {
+            color: red;
+        }
+
+        .para1::first-letter {
+            color: blue;
+            font-size: 50px;
+        }
+
+        .para1::after {
+            content: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HFV5OOhPQiPC9nZcrdSTdQTKVNcZmwyEkA&usqp=CAU");
+        }
+
+        .para1::before {
+            content: "Paragraf Oncesi";
+        }
+    </style>
+
+</head>
+
+<body>
+    <p class="para1">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est totam perferendis nam impedit placeat odit beatae?
+        Enim minus id nostrum modi ipsa ab ut, quaerat illo blanditiis eius sint consequuntur quod fuga cumque, neque
+        assumenda rem corrupti consequatur totam! Sapiente obcaecati facere, doloremque pariatur cumque quisquam
+        nesciunt ipsa illum. Impedit cupiditate nam obcaecati soluta ea, unde accusantium aspernatur. Cumque eius, quis,
+        aperiam velit magnam voluptatum veniam nihil fugit facere vitae sed dignissimos! Nobis odit modi, suscipit nulla
+        hic laborum fugiat magni ea animi totam dignissimos id molestiae possimus voluptatum deleniti placeat et
+        repudiandae aspernatur. Exercitationem quas voluptatem incidunt pariatur explicabo.
+    </p>
+</body>
+
+</html>
